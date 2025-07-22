@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Flatris Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Flatris</h1>
+  <canvas id="game" width="200" height="400"></canvas>
+
+  <div class="controls">
+    <button onclick="move(-1)">◀️</button>
+    <button onclick="rotate()">🔄</button>
+    <button onclick="move(1)">▶️</button>
+    <button onclick="drop()">⏬</button>
+  </div>
+
+  <script src="sounds.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
